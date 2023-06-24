@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.title, h2{
+  text-align: center;
+}
+.dark{
+  background-color: grey;
+}
+.dark header, .dark .myFooter footer{
+  background-color: black;
+}
+.dark div main{
+  background-color: grey;
+  color: bisque;
+}
+.dark main{
+  background-color: gray 
+}
+.dark main h1{
+  color: white;
+}
+
+main h1, main form input {
+  color: black;
+}
+main form, main {
+  display: flex;
+  flex-direction: column;
+}
+main p{
+  color: black;
+  font-size: 16px;
+  margin-top: 13px;
+}
+p a{
+  text-decoration: underline;
+  color: cyan;
+  font-weight: bold;
+  font-style: 15px;
+}
+.dark main p {
+  color: white;
+}
+ input{
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 6px 4px;
+  border: 2.5px solid grey;
+  border-radius: 7px;
+ }
+ .btnr{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: teal;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.1s;
+  margin-top: 20px;
+ }
+ .btnr:hover{
+  scale: 1.05;
+ }
+ .btnr:active{
+  scale: 0.95;
+  border-radius: 0;
+ }
+  .fa-sun{
+  color: yellow;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+ }
+ .dark .fa-sun{
+  display: block;
+ }
+  .fa-moon{
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+ }
+ .dark .fa-moon{
+  display: none;
+ }
+
+
+
+

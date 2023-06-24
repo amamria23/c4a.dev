@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={`myFooter`}>
       <footer>
-        Designed and developed by <NavLink to='/data'>Courses4Arab.com</NavLink>
+        Designed and developed by <NavLink to='/data'>Amamria ilyess</NavLink>
         <span>🔥</span>
       </footer>
     </div>

@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <header className={`hide-when-mobile`}>
         <h1>
-          <Link to={"/"}>c4a.dev</Link>
+          <Link to={"/"}>HomeBook</Link>
         </h1>
         <i
           className="fa-solid fa-sun"
@@ -126,7 +126,7 @@ const Header = () => {
         </ul>
       </header>
       <header className="show-when-mobile">
-        <h1>c4a.dev</h1>
+        <h1>HomeBook</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
